@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="../js/externoLambda.js"></script>
+</head>
+
+<body>
+    <header></header>
+    <nav>
+        <ul id="idMenu">
+            <li>Calculadora 1</li>
+            <li>Calculadora 2</li>
+            <li>Calculadora 3</li>
+        </ul>
+    </nav>
+    <section>
+        <label id="label1" for="numero1">N&#250;mero 1</label>
+        <input id="numero1" type="number">
+        <label id="label2" for="numero2">N&#250;mero 2</label>
+        <input id="numero2" type="number">
+        <br>
+        <button onclick="cambiarColor('label1','pink')">Cambiar color</button>
+        <button onclick="cambiarTamanio('label2','25px')">Cambiar tama&#241;o</button>
+        <button onclick="cambiarTexto('label1','nuevo textoExterno')">Cambiar texto</button>
+        <button onclick="cambiarTexto('label2','nuevo textoExterno2')">Cambiar texto</button>
+        <button onclick="agregarElemento('idMenu','<li>Calculadora 4</li>')">Agregar Elemento</button>
+        <button onclick="conceptosJS()">CONCEPTOS JS</button>
+    </section>
+    <footer></footer>
+
+</body>
+
+</html>
