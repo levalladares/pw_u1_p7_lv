@@ -1,0 +1,35 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calculadora {
+    /*todo el contenido de cuadricula se va a distribuir visualmente como una cuadriculo*/
+    display: grid;
+    grid-template-columns: 75px 75px 75px 75px;
+    grid-template-rows: 75px 75px 75px 75px 75px 75px;
+    padding: 15px;
+    /*border: solid blue;*/
+    border-radius: 35px;
+    background: rgb(176, 190, 199);
+    box-shadow: 15px 10px 5px 5px rgba(44, 44, 44);
+}
+
+
+.pantalla {
+    border: solid black 1px;
+    border-radius: 5px;
+    grid-column: span 4;
+    background-color: white;
+    padding: 18px;
+    text-align: right;
+    font-size: 2em;
+    margin-bottom: 10px;
+
+}
+#c{
+    grid-column: span 2;
+    
+}
+
