@@ -18,18 +18,46 @@
 
 
 .pantalla {
-    border: solid black 1px;
-    border-radius: 5px;
+    border: solid black 3.5px;
+    border-radius: 18px;
     grid-column: span 4;
-    background-color: white;
+    background-color: rgb(168, 168, 168);
     padding: 18px;
     text-align: right;
     font-size: 2em;
     margin-bottom: 10px;
-
 }
-#c{
+
+button {
+    cursor: pointer;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 32px;
+    border: solid black 2.5px;
+    background: rgb(131, 125, 156);
+    font-size: 25px;
+    /*box-shadow: 3.5px 1.5px 1.5px 1.5px rgba(44, 44, 44);*/
+}
+
+#c {
     grid-column: span 2;
-    
+    background-color: rgb(79, 90, 108);
+
 }
 
+#c:hover {
+    background: rgb(111, 120, 116);
+}
+
+#c:active {
+    background: rgb(124, 146, 140);
+}
+
+button:hover {
+    background: rgb(111, 120, 116);
+}
+
+button:active {
+    background: rgb(124, 146, 140);
+
+}
