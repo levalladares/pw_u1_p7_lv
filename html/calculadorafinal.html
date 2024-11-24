@@ -16,26 +16,26 @@
         <div class="container">
             <div class="calculadora">
                 <div id="id_pantalla" class="pantalla">
-                    0
+                    
                 </div>
-                <button onclick="limpiarPantalla('C')" id ="c">C</button>
-                <button>&larr;</button>
-                <button>%</button>
-                <button onclick="recibirValor(7)">7</button>
-                <button onclick="recibirValor(8)">8</button>
-                <button onclick="recibirValor(9)">9</button>
-                <button onclick="recibirOperacion('X')">X</button>
-                <button onclick="recibirValor(4)">4</button>
-                <button onclick="recibirValor(5)">5</button>
-                <button onclick="recibirValor(6)">6</button>
-                <button>-</button>
-                <button onclick="recibirValor(1)">1</button>
-                <button onclick="recibirValor(2)">2</button>
-                <button onclick="recibirValor(3)">3</button>
-                <button>+</button>
-                <button onclick="recibirValor(0)" id="c" >0</button>
-                <button>.</button>
-                <button>=</button>
+                <button onclick="limpiar()" id ="c">C</button>
+                <button onclick="borrar()">&larr;</button>
+                <button onclick="seleccionarOperacion('%')">%</button>
+                <button onclick="setarValor(7)">7</button>
+                <button onclick="setarValor(8)">8</button>
+                <button onclick="setarValor(9)">9</button>
+                <button onclick="seleccionarOperacion('X')">X</button>
+                <button onclick="setarValor(4)">4</button>
+                <button onclick="setarValor(5)">5</button>
+                <button onclick="setarValor(6)">6</button>
+                <button onclick="seleccionarOperacion('-')">-</button>
+                <button onclick="setarValor(1)">1</button>
+                <button onclick="setarValor(2)">2</button>
+                <button onclick="setarValor(3)">3</button>
+                <button onclick="seleccionarOperacion('+')">+</button>
+                <button onclick="setarValor(0)" id="c" >0</button>
+                <button onclick="setarValor('.')">.</button>
+                <button onclick="calcular()">=</button>
             </div>
         </div>
     </section>
